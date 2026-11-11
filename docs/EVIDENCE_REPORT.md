@@ -46,6 +46,9 @@ Funding purpose:
 > **E1.2 addition (2026-08-02).** The bounded-routing comparison (§4.2) is a post-release
 > measurement, pinned to commit `ba4e2ff` and CI run `30736370023` (evidence workflow, green).
 > It is not part of the v0.3.1 evidence package; it is a fresh, separately-pinned run.
+>
+> **Current HEAD (2026-08-26).** Repository head is `d848e1f` (docs: clarify UDP transport identity).
+> Documentation-only commits after `ea97e04` do not alter measured results or evidence.
 
 | Artifact | Location | Status |
 |----------|----------|--------|

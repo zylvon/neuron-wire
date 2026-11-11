@@ -64,8 +64,11 @@
 ```
 Version:        v0.3.1
 Evidence commit: 265e2169949c180d7ad3a0ce0dcf73c4b75687b7
+Current HEAD:   d848e1f (docs: clarify UDP transport identity)
 CI run:         30697662079   (success)
 Evidence run:   30697662078   (success)
+E1.2 run:       30743058738   (success, commit ea97e04)
 Test count:     342 passing on Linux CI
 Release:        https://github.com/cianmag/neuron-wire/releases/tag/v0.3.1
+Evidence rel:   https://github.com/cianmag/neuron-wire/releases/tag/evidence-2026-08-02-e12
 ```

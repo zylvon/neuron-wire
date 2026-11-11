@@ -1,7 +1,7 @@
 # Project Status
 
 > **Canonical status entry point.** Read this first. Everything else in the repository is
-> supporting detail behind one of the sections below. Last updated: 2026-08-01.
+> supporting detail behind one of the sections below. Last updated: 2026-08-26.
 
 ## What this project is
 Neuron Wire (NWP) is an MIT-licensed Rust framework for **coordinator-free, peer-to-peer
@@ -10,15 +10,19 @@ exchange neural gradients over a custom reliable-UDP transport, and learn collec
 Hebbian/STDP. Single-threaded non-blocking engine, no async-runtime dependency. It is a
 **validated research prototype** (v0.3.1), not a production service.
 
-## Current status (2026-08-01)
+## Current status (2026-08-26)
 | Area | Status |
 |------|--------|
 | Public CI (Linux/macOS/Windows) | ✅ green |
 | Evidence pipeline (342 tests, E1–E9 matrix, 4 fuzz targets) | ✅ green, commit-pinned |
-| Evidence provenance | ✅ pinned to `265e216` (v0.3.1), run IDs in §2 of the evidence report |
-| Release | ✅ v0.3.1 tag + GitHub release (4 binaries + grant PDF + demo video) |
+| Evidence provenance | ✅ pinned to `265e216` (v0.3.1), run IDs in §2 of the evidence report; E1.2 pinned to `ba4e2ff`/`ea97e04` |
+| Release | ✅ v0.3.1 tag + GitHub release (4 binaries + grant PDF + demo video) + evidence release `evidence-2026-08-02-e12` |
 | Grant package | ✅ complete (PDF + technical summary + submission drafts) |
 | Grant submissions | 🔄 in progress — see [tracker](GRANT_SUBMISSIONS/TRACKER.md) |
+| Protocol identity | ✅ clarified — UDP is production transport; TCP is legacy/tooling only (commit `d848e1f`) |
+| Repository file report | ✅ complete — 487/487 tracked files (commit `d820e9a`) |
+| CodeQL Alert #4 | ✅ fixed — `NONCE_SIZE` updated to 24 in `src/secure_channel.rs` |
+| Bounded-routing (E1.2) | ✅ complete — cap=32 pins avg_peers at 32 at all scales; convergence unchanged |
 | WAN deployment | ⏳ funding target (needs the 20-node three-region pilot) |
 | External security audit | ⏳ funding target |
 | Independent replication | ⏳ funding target — see [reproducibility](../REPRODUCIBILITY.md) |
@@ -42,10 +46,11 @@ is tracked as a cleanup task and does not affect the v0.3.1 release.
 
 ## Evidence in one line
 342 tests pass on Linux CI, pinned to commit `265e216` (v0.3.1), CI run `30697662079`,
-evidence run `30697662078` — full definitions in [EVIDENCE_REPORT.md](EVIDENCE_REPORT.md).
+evidence run `30697662078` — plus E1.2 bounded-routing (commit `ea97e04`, CI run `30743058738`).
+Full definitions in [EVIDENCE_REPORT.md](EVIDENCE_REPORT.md).
 
 ## What's NOT done (honest)
 - No WAN deployment, no NAT traversal validation, no external security audit, no independent
-  reproduction, no real-task learning benchmark, no bounded-K-bucket routing-table variant,
-  no valid network-partition experiment (isolation not verified). Each is a funded-phase task,
-  itemized in the evidence report and roadmap — not claimed.
+  reproduction, no real-task learning benchmark, no bounded-K-bucket routing-table variant
+  (E1.2 addresses this at cap=32), no valid network-partition experiment (isolation not verified).
+  Each is a funded-phase task, itemized in the evidence report and roadmap — not claimed.
