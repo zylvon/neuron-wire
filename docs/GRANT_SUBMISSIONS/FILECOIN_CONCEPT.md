@@ -52,4 +52,4 @@ No budget is requested in this concept note. If go criteria pass, a scoped miles
 (≤$10k) will be drafted with the storage deal costs itemized.
 
 ## Contact
-[Founder name + email] · github.com/cianmag/neuron-wire · evidence: `docs/EVIDENCE_REPORT.md`
+[Founder name + email] · github.com/zylvon/neuron-wire · evidence: `docs/EVIDENCE_REPORT.md`

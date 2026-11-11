@@ -58,4 +58,4 @@ Solo founder (16, Nepali citizen studying in India — guardian consent availabl
 MIT from day one; the deployment thesis is self-sustaining (nodes are free to run; the network is the infrastructure). Post-pilot: SDK/ecosystem (crates.io/PyPI), further grant cycles (Rust Foundation, Protocol Labs), and a university-partner path for org-gated funding. All datasets remain public regardless of funding outcome.
 
 ## Contact
-[Founder name + email] · github.com/cianmag/neuron-wire · docs/EVIDENCE_REPORT.md (commit-pinned evidence) · docs/GRANT_* (full package) · docs/TECHNICAL_SUMMARY.md
+[Founder name + email] · github.com/zylvon/neuron-wire · docs/EVIDENCE_REPORT.md (commit-pinned evidence) · docs/GRANT_* (full package) · docs/TECHNICAL_SUMMARY.md

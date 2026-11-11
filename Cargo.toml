@@ -9,9 +9,9 @@ rust-version = "1.87"
 description = "Infrastructure layer for decentralized AI — P2P peer discovery, gradient exchange, and distributed learning"
 authors = ["Zylvon <team@zylvon.com>"]
 license = "MIT OR Apache-2.0"
-repository = "https://github.com/cianmag/neuron-wire"
+repository = "https://github.com/zylvon/neuron-wire"
 homepage = "https://neuron-wire-dashboard.vercel.app"
-documentation = "https://github.com/cianmag/neuron-wire/blob/master/ARCHITECTURE.md"
+documentation = "https://github.com/zylvon/neuron-wire/blob/master/ARCHITECTURE.md"
 keywords = ["dht", "kademlia", "p2p", "neural-network", "distributed", "hebbian", "stdp", "decentralized", "federated-learning"]
 categories = ["network", "science", "simulation", "wasm"]
 

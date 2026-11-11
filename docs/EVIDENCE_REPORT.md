@@ -1,7 +1,7 @@
 # Neuron Wire — Evidence Report
 
 > **Public evidence package for grant evaluation.**
-> Repository: [github.com/cianmag/neuron-wire](https://github.com/cianmag/neuron-wire) · Company: Zylvon · Version: v0.3.1
+> Repository: [github.com/zylvon/neuron-wire](https://github.com/zylvon/neuron-wire) · Company: Zylvon · Version: v0.3.1
 
 ---
 
@@ -31,8 +31,8 @@ Funding purpose:
 **Latest verified evidence release** (all numbers in this report):
 - **Version:** v0.3.1
 - **Commit:** `265e2169949c180d7ad3a0ce0dcf73c4b75687b7`
-- **CI run:** [ci.yml 30697662079](https://github.com/cianmag/neuron-wire/actions/runs/30697662079) (success)
-- **Evidence run:** [evidence.yml 30697662078](https://github.com/cianmag/neuron-wire/actions/runs/30697662078) (matrix + emulation, success)
+- **CI run:** [ci.yml 30697662079](https://github.com/zylvon/neuron-wire/actions/runs/30697662079) (success)
+- **Evidence run:** [evidence.yml 30697662078](https://github.com/zylvon/neuron-wire/actions/runs/30697662078) (matrix + emulation, success)
 - **Generated:** 2026-08-01T12:14:17Z
 - **Rust:** stable (dtolnay/rust-toolchain@stable)
 - **OS:** ubuntu-latest (Linux), macos-latest (build only), windows-latest (check only)
@@ -41,7 +41,7 @@ Funding purpose:
 > emulation experiments, and the distributed-learning E2E — are pinned to the single commit
 > `265e216` (v0.3.1) and its verified runs above. Documentation-only commits after that release
 > (this file included) do not alter measured results. Current repository head is always visible in
-> the [commit log](https://github.com/cianmag/neuron-wire/commits/master).
+> the [commit log](https://github.com/zylvon/neuron-wire/commits/master).
 >
 > **E1.2 addition (2026-08-02).** The bounded-routing comparison (§4.2) is a post-release
 > measurement, pinned to commit `ba4e2ff` and CI run `30736370023` (evidence workflow, green).
@@ -334,7 +334,7 @@ bandwidth, apoptosis deaths. Full table: `results/evidence/E9_*/summary.csv`.
 ## 8. Reproducibility Instructions
 
 ```bash
-git clone https://github.com/cianmag/neuron-wire
+git clone https://github.com/zylvon/neuron-wire
 cd neuron-wire
 
 # Deterministic simulation matrix — full profile (E1, E2, E4, E5, E6, E9)

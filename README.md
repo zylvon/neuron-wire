@@ -16,12 +16,12 @@
 > **Test suite:** 342 test functions pass on Linux CI — commit-pinned in
 > [docs/EVIDENCE_REPORT.md](docs/EVIDENCE_REPORT.md)
 
-[![CI](https://github.com/cianmag/neuron-wire/actions/workflows/ci.yml/badge.svg)](https://github.com/cianmag/neuron-wire/actions/workflows/ci.yml)
-[![Evidence](https://github.com/cianmag/neuron-wire/actions/workflows/evidence.yml/badge.svg)](https://github.com/cianmag/neuron-wire/actions/workflows/evidence.yml)
+[![CI](https://github.com/zylvon/neuron-wire/actions/workflows/ci.yml/badge.svg)](https://github.com/zylvon/neuron-wire/actions/workflows/ci.yml)
+[![Evidence](https://github.com/zylvon/neuron-wire/actions/workflows/evidence.yml/badge.svg)](https://github.com/zylvon/neuron-wire/actions/workflows/evidence.yml)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE-MIT)
 [![Rust](https://img.shields.io/badge/rust-stable-orange)](https://www.rust-lang.org/)
 [![Dashboard](https://img.shields.io/badge/dashboard-live-00c8ff)](https://neuron-wire-dashboard.vercel.app)
-[![Documentation](https://img.shields.io/badge/docs-mdBook-00c853)](https://github.com/cianmag/neuron-wire)
+[![Documentation](https://img.shields.io/badge/docs-mdBook-00c853)](https://github.com/zylvon/neuron-wire)
 [![Crates.io](https://img.shields.io/badge/crate-v0.3.1-blue)]()
 [![Security](https://img.shields.io/badge/security-Ed25519%20signed-ff69b4)](SECURITY.md)
 
@@ -50,7 +50,7 @@ The protocol provides: latency-weighted Kademlia DHT for peer discovery, custom 
 ## Quick Start
 
 ```bash
-git clone https://github.com/cianmag/neuron-wire
+git clone https://github.com/zylvon/neuron-wire
 cd neuron-wire
 cargo build --release   # opt-level=z, LTO, stripped binary
 cargo test              # full test suite

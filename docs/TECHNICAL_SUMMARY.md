@@ -1,7 +1,7 @@
 # Neuron Wire — Technical Summary
 
 **Version v0.3.1 · Validated Research Prototype · MIT License**
-Zylvon · [github.com/cianmag/neuron-wire](https://github.com/cianmag/neuron-wire) · evidence pinned in
+Zylvon · [github.com/zylvon/neuron-wire](https://github.com/zylvon/neuron-wire) · evidence pinned in
 [docs/EVIDENCE_REPORT.md](docs/EVIDENCE_REPORT.md)
 
 ---
@@ -51,8 +51,8 @@ Every number below is produced by **one verified commit** and **one CI/evidence 
 |-------|-------|
 | Version | v0.3.1 |
 | Pinned commit | `265e2169949c180d7ad3a0ce0dcf73c4b75687b7` |
-| CI run | [ci.yml 30697662079](https://github.com/cianmag/neuron-wire/actions/runs/30697662079) — green |
-| Evidence run | [evidence.yml 30697662078](https://github.com/cianmag/neuron-wire/actions/runs/30697662078) — matrix + emulation, green |
+| CI run | [ci.yml 30697662079](https://github.com/zylvon/neuron-wire/actions/runs/30697662079) — green |
+| Evidence run | [evidence.yml 30697662078](https://github.com/zylvon/neuron-wire/actions/runs/30697662078) — matrix + emulation, green |
 | Test count | 342 passing on Linux CI |
 
 Documentation-only commits after the pinned commit do not alter measured results; the tag's own CI

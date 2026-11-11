@@ -70,4 +70,4 @@ Solo founder who designed and built the entire system (Rust, ~21,000 lines, 41 m
 MIT-licensed from day one. All datasets, scripts, and the evidence pipeline are public. After the pilot, the project's sustainability path is: (a) the decentralized-deployment thesis itself (nodes are free to run), (b) SDK/ecosystem revenue later (crates.io/PyPI), (c) continued grant cycles (Rust Foundation, NGI/OIS post-summer 2026).
 
 ## Contact
-[Founder name + email] · github.com/cianmag/neuron-wire · grant package in `docs/GRANT_*`, technical summary in `docs/TECHNICAL_SUMMARY.md`, full evidence in `docs/EVIDENCE_REPORT.md`
+[Founder name + email] · github.com/zylvon/neuron-wire · grant package in `docs/GRANT_*`, technical summary in `docs/TECHNICAL_SUMMARY.md`, full evidence in `docs/EVIDENCE_REPORT.md`

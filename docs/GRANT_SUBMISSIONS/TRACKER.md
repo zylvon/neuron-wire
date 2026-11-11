@@ -7,7 +7,7 @@
 1. Submit only to programs verified **active** (✓) at submission time — re-verify the week you submit.
 2. Send the **two-page technical summary** (`docs/TECHNICAL_SUMMARY.md`) first; point to the full
    evidence report (`docs/EVIDENCE_REPORT.md`) and the **GitHub release** (not moving master):
-   https://github.com/cianmag/neuron-wire/releases/tag/v0.3.1
+   https://github.com/zylvon/neuron-wire/releases/tag/v0.3.1
 3. One evidence core, tailored framing per funder: same 342 tests / 20-node pilot / $20k budget.
 4. Log every submission, reply, deadline, and follow-up below. No silent waiting.
 5. **Never submit a program that is paused, restricted, or legally inaccessible** — the fields
@@ -69,6 +69,6 @@ CI run:         30697662079   (success)
 Evidence run:   30697662078   (success)
 E1.2 run:       30743058738   (success, commit ea97e04)
 Test count:     342 passing on Linux CI
-Release:        https://github.com/cianmag/neuron-wire/releases/tag/v0.3.1
-Evidence rel:   https://github.com/cianmag/neuron-wire/releases/tag/evidence-2026-08-02-e12
+Release:        https://github.com/zylvon/neuron-wire/releases/tag/v0.3.1
+Evidence rel:   https://github.com/zylvon/neuron-wire/releases/tag/evidence-2026-08-02-e12
 ```
