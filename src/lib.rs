@@ -38,6 +38,7 @@ pub mod engine_loop;
 pub mod flat;
 pub mod forgetting_bench;
 pub mod forward_pass;
+pub mod fragmentation;
 pub mod gradient_compression;
 pub mod header;
 pub mod health;
