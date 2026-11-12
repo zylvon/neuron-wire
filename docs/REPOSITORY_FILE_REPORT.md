@@ -2,7 +2,7 @@
 Generated from local repository ground truth.
 
 - Branch: `master`
-- HEAD at generation: `ea97e04`
+- HEAD at generation: `ea97e04` (snapshot; current HEAD is `1182532`)
 - Git status before report: `clean`
 - Tracked files covered: **487 / 487**
 - Scope: every `git ls-files` tracked path, including source, docs, CI, evidence, results, dashboards, deployment, fuzzing, and examples.
