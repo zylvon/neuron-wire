@@ -1,6 +1,6 @@
 # Neuron Wire: Foundational Q&A
 
-> Every answer is one sentence. Updated 2026-07-09 · Commit `5a739f9` · Repository: [github.com/cianmag/neuron-wire](https://github.com/cianmag/neuron-wire)
+> Every answer is one sentence. Updated 2026-07-09 · Commit `8e77eb6` · Repository: [github.com/zylvon/neuron-wire](https://github.com/zylvon/neuron-wire)
 
 ---
 

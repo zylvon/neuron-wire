@@ -1,7 +1,7 @@
 # Neuron Wire: Project Statistics
 
 > Engineering metrics and benchmark data for the Neuron Wire protocol.
-> Date: 2026-07-11 | Commit: `f3c9157` | Repository: [github.com/cianmag/neuron-wire](https://github.com/cianmag/neuron-wire)
+> Date: 2026-07-11 | Commit: `8e77eb6` | Repository: [github.com/zylvon/neuron-wire](https://github.com/zylvon/neuron-wire)
 
 ---
 
