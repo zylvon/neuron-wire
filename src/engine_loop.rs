@@ -201,7 +201,7 @@ impl Default for EngineConfig {
             freshness_config: None,
             identity_seed: None, // random identity by default
             security_enabled: true,
-            encrypt_payloads: false,
+            encrypt_payloads: true,
             stun_enabled: false,
             stun_server: "stun.l.google.com:19302".to_string(),
             peer_cache_path: None,
@@ -1796,8 +1796,8 @@ mod tests {
             "security_enabled should default to true"
         );
         assert!(
-            !cfg.encrypt_payloads,
-            "encrypt_payloads should default to false"
+            cfg.encrypt_payloads,
+            "encrypt_payloads should default to true"
         );
         assert!(!cfg.stun_enabled, "stun_enabled should default to false");
         assert_eq!(cfg.stun_server, "stun.l.google.com:19302");

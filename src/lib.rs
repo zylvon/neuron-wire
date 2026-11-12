@@ -26,6 +26,7 @@ pub mod adversary;
 pub mod apoptosis;
 pub mod attention;
 pub mod components;
+pub mod congestion;
 pub mod continual_learning;
 pub mod crc;
 pub mod curiosity;

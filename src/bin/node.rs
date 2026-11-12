@@ -202,7 +202,7 @@ impl Default for SecuritySection {
     fn default() -> Self {
         SecuritySection {
             sign_packets: true,
-            encrypt_payloads: false,
+            encrypt_payloads: true,
         }
     }
 }

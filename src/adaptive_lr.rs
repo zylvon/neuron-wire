@@ -1,4 +1,4 @@
-#![deny(missing_docs)]
+#![warn(missing_docs)]
 
 //! Adaptive learning rates for per-synapse optimisation.
 //!
